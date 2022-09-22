@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: black;
+    font-family: 'David Libre', serif;
+    padding: 5px;
+}
+
+#nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: sticky;
+}
+
+#navbar li {
+    margin: 2px 25px;
+    padding: 5px 10px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#intro {
+    height: 350px;
+    background: url('/static/tg1oRJd.jpg') no-repeat center center;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3.8rem;
+    padding-bottom: 60px;
+    align-items: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#up {
+    margin: 10px;
+}
+
+.small {
+    font-size: 2.4rem;
+}
+
+.mis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission {
+    height: 300px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+
+}
+
+#mission h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.7rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px;
+    height: 200px;
+}
+
+.card:hover {
+
+    background-color: black;
+    color: white;
+}
+
+.card:hover img {
+    filter: invert(100%);
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+#logo {
+    display: flex;
+    color: white;
+
+    align-items: center;
+    margin: 0px 14px;
+}
+
+#logo img {
+    height: 70px;
+    width: 70px;
+    margin: 0px 5px;
+    filter: invert(1);
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 150px;
+    padding: 0px 10px;
+    margin: 2px 5px;
+
+
+}
+
+.card-img img {
+
+    height: 150px;
+}
+
+.card-content {
+    margin: 2px 5px;
+    padding: 0px 5px;
+}
+
+.card-content p {
+    font-size: 20px;
+}
+
+#sponser {
+    height: 300px;
+    background-color: rgb(247, 218, 218);
+    font-family: 'David Libre', serif;
+}
+
+#sponser h3 {
+
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.sponser {
+    height: 180px;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.sp_img {
+    height: 80%;
+    margin: 10px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(8, 9, 9);
+    font-family: 'David Libre',
+        serif;
+}

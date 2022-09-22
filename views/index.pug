@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+  body
+     nav#navbar.top.first
+        ul#nav 
+            div#logo
+                  img(src="/static/d.jpg")
+                  //- | DA
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class Info]
+            li #[a(href='/') Contact Us]
+
+     section#intro 
+        p#up Welcome To Dance Academy
+        div.small Eat Sleep Dance Repeat
+     section#mission 
+        h2 Our Mission
+        div.mis
+          div.card
+             h3 Dance Perfection
+             div.card-box
+                  div.card-img
+                     img(src="/static/c6.png")
+                  div.card-content  
+                     p This is the best dance academy 
+          div.card
+             h3 Dance the way you like
+             div.card-box
+                  div.card-img
+                     img(src="/static/c2.png")
+                  div.card-content  
+                     p This is the best dance academy 
+          div.card
+             h3 Epert Teaching
+             div.card-box
+                  div.card-img
+                     img(src="/static/c3.png")
+                  div.card-content  
+                     p This is the best dance academy 
+     section#sponser 
+        h3 Our Sponsers
+        div.sponser
+          img(src="/static/adobe.png", alt="Sponser Image" class="sp_img") 
+          img(src="/static/pngegg.png", alt="Sponser Image" class="sp_img") 
+          img(src="/static/x.svg", alt="Sponser Image" class="sp_img") 
+          img(src="/static/apple.png", alt="Sponser Image" class="sp_img") 
+
+     footer#footer 
+        | Copyright © 2022 RkDanceAcademy.com | All rights reserved
+
+     script
+      include ../static/index.js
