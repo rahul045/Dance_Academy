@@ -53,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
     font-size: 3.8rem;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     align-items: center;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -74,8 +74,8 @@
 
 #mission {
     height: 300px;
-    background-color: white;
-    width: 80%;
+    background-color: rgb(227, 234, 165);
+    width: 100%;
     margin: auto;
 
 }
@@ -185,7 +185,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     height: 50px;
     background-color: rgb(8, 9, 9);
     font-family: 'David Libre',
