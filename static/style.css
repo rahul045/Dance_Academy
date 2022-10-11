@@ -83,7 +83,7 @@
 
 #mission h2 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 12px;
     font-size: 1.7rem;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -165,13 +165,13 @@
 #sponser h3 {
 
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
     font-size: 1.7rem;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .sponser {
-    height: 180px;
+    height: 175px;
     max-width: 1000px;
     margin: 25px auto;
 }
@@ -187,7 +187,7 @@
     align-items: center;
     color: white;
     font-size: 22px;
-    height: 50px;
+    height: 52px;
     background-color: rgb(8, 9, 9);
     font-family: 'David Libre',
         serif;
